@@ -65,6 +65,7 @@ jobs:
           AGENT_SKILL_DIR: "./strategies"
           AGENT_MODE: "true"
           AGENT_SKILLS: "my_etf_discipline"
+          AGENT_LITELLM_MODEL="deepseek/deepseek-chat"
           
           # ==========================================
           # AI 配置
