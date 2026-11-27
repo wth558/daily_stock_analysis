@@ -62,6 +62,10 @@ jobs:
       
       - name: 执行股票分析
         env:
+          AGENT_SKILL_DIR: "./strategies"
+          AGENT_MODE: "true"
+          AGENT_SKILLS: "my_etf_discipline"
+          
           # ==========================================
           # AI 配置
           # ==========================================
